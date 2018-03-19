@@ -1,0 +1,16 @@
+{
+  "name": "generatepdf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "azure-storage": "^2.8.1",
+    "pdfkit": "^0.8.3",
+    "svg-to-pdfkit": "^0.1.7"
+  }
+}
