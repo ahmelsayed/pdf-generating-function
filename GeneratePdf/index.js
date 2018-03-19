@@ -53,12 +53,6 @@ viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
                 .fillColor("black")
                 .text(reqContent, 150, 100);
 
-            doc.save()
-                .moveTo(100, 150)
-                .lineTo(100, 250)
-                .lineTo(200, 250)
-                .fill("#FF3300");
-
             svgToPdf(doc, svg, 130, 200, {
                 width: 150,
                 height: 150
